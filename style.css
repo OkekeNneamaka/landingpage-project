@@ -1,0 +1,128 @@
+.main-container{
+max-width: 80%;
+margin: 0 auto;
+}
+
+.one{
+    background-image: url("images/bg-hero-desktop.svg");
+    background-color: hsl(193, 100%, 96%);
+}
+
+.container{
+    display: flex;
+    margin: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.heading{
+    font-family: 'Poppins', sans-serif;
+}
+
+.first-container{
+display: flex;
+justify-content: space-between;
+margin-top: 0px;
+}
+
+.first-logo{
+    max-width: 80px;
+}
+
+.button{
+    margin: 15px;
+    padding: 10px;
+    border: 0px;
+    border-radius: 30px;
+    transition: all 200ms ease-in-out;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.first-button{
+    background-color: white;
+    color: black;
+    box-shadow: 0px 0px 1px grey;
+}
+
+.get-started{
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    box-shadow: 1px 1px grey;
+}
+
+.sub-divs{
+    box-shadow: 0px 0px 1px grey;
+    padding: 30px 10px;
+}
+
+.images{
+    width: 400px;
+    flex-basis: 70%;
+}
+
+.notes{
+    margin: 30px 15px;
+}
+
+.build-div{
+    background-color: white;
+    box-shadow: 0px 0px 1px grey;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    font-size: 10px;
+    width: 40%;
+    margin: 50px auto -50px auto;
+    position: relative;
+}
+
+ul li{
+    list-style-type: none;
+    padding: 10px;
+}
+
+.footer{
+    align-content: flex-end;
+    background-color: hsl(192,100%,9%);
+    color: white;
+    padding: 20px 2px;
+}
+
+
+@media screen and (max-width:600px){
+
+    .main-container{
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .container{
+        flex-direction: column;
+    }
+
+    
+    img{
+        max-width: 80%;
+    }
+
+ .first-container{
+    flex-direction: row;
+ }
+
+ .footer{
+    align-items: flex-start;
+    text-align: left;
+ }
+ .media-icon {
+    margin: 10px auto;
+}
+.fa-twitter,.fa-instagram{
+    margin-left: 10px;
+}
+.copyright{
+    margin: 0 auto;
+}
+    
+}
+   
+    
